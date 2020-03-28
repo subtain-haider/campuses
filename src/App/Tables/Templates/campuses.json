@@ -1,0 +1,77 @@
+{
+    "name": "Campus",
+    "routePrefix": "campuses",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Id",
+            "name": "id",
+            "data": "campuses.id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Code",
+            "name": "code",
+            "data": "campuses.code",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        },
+        {
+            "label": "Name",
+            "name": "name",
+            "data": "campuses.name",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        },
+        {
+            "label": "Email",
+            "name": "email",
+            "data": "campuses.email",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        },
+        {
+            "label": "Number",
+            "name": "number",
+            "data": "campuses.number",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        },
+        {
+            "label": "Type",
+            "name": "type",
+            "data": "campuses.type",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        },
+        {
+            "label": "Address",
+            "name": "address",
+            "data": "campuses.address",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        },
+        {
+            "label": "City",
+            "name": "city",
+            "data": "campuses.city",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "sibtain/campuses",
+    "type": "library",
+    "description": "",
+    "authors": [],
+    "keywords": [],
+    "homepage": "https://www.laravel-enso.com",
+    "require": {
+        "php": ">=7.4.0",
+        "laravel-enso/core": "4.8.*",
+        "laravel-enso/forms": "3.4.*",
+        "laravel-enso/tables": "3.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sibtain\\Campuses\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sibtain\\Campuses\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sibtain\\Campuses\\AppServiceProvider",
+                "Sibtain\\Campuses\\AuthServiceProvider"
+            ]
+        }
+    }
+}

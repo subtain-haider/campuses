@@ -1,0 +1,92 @@
+{
+    "routePrefix": "campuses",
+    "sections": [
+        {
+            "columns": 3,
+            "fields": [
+                {
+                    "label": "Code",
+                    "name": "code",
+                    "value": null,
+                    "meta": {
+                        "custom": false,
+                        "type": "input",
+                        "content": "text",
+                        "disabled": false
+                    }
+                },
+                {
+                    "label": "Name",
+                    "name": "name",
+                    "value": null,
+                    "meta": {
+                        "custom": false,
+                        "type": "input",
+                        "content": "text",
+                        "disabled": false
+                    }
+                },
+                {
+                    "label": "Type",
+                    "name": "type",
+                    "value": null,
+                    "meta": {
+                        "options": "School, Academy",
+                        "type": "input",
+                        "content": "text",
+                        "disabled": false
+                    }
+                }
+            ]
+        },
+        {
+            "columns": 4,
+            "fields": [
+                {
+                    "label": "Email",
+                    "name": "email",
+                    "value": null,
+                    "meta": {
+                        "custom": false,
+                        "type": "input",
+                        "content": "text",
+                        "disabled": false
+                    }
+                },
+                {
+                    "label": "Number",
+                    "name": "number",
+                    "value": null,
+                    "meta": {
+                        "custom": false,
+                        "type": "input",
+                        "content": "text",
+                        "disabled": false
+                    }
+                },
+                {
+                    "label": "Address",
+                    "name": "address",
+                    "value": null,
+                    "meta": {
+                        "custom": false,
+                        "type": "input",
+                        "content": "text",
+                        "disabled": false
+                    }
+                },
+                {
+                    "label": "City",
+                    "name": "city",
+                    "value": null,
+                    "meta": {
+                        "custom": false,
+                        "type": "input",
+                        "content": "text",
+                        "disabled": false
+                    }
+                }
+            ]
+        }
+    ]
+}
